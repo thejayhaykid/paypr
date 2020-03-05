@@ -10,18 +10,18 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='babysitter',
+    name='paypr',
     version='0.1.0',
-    description='Simulate a babysitter working and getting paid for one night.',
+    description='Make a wallpaper from an undersized image.',
     long_description=readme,
     author='Jake Hayes',
     author_email='jakejhayes@gmail.com',
-    url='https://github.com/thejayhaykid/babysitter-kata',
+    url='https://github.com/thejayhaykid/paypr',
     license=license,
     packages=find_packages(exclude='test'),
     entry_points = {
         'console_scripts': [
-            'babysitter = babysitter.cli:main'
+            'paypr = paypr.cli:main'
         ]
     },
     install_requires=['click']
