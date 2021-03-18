@@ -75,3 +75,9 @@ When done, exit the virtualenv with:
 ```bash
 (venv) $ deactivate
 ```
+
+## Example
+
+Input: ![Example Input](398027.jpg)
+
+Output: ![Example Output](398027_2021-03-18.png)
