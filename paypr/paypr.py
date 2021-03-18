@@ -45,7 +45,7 @@ class Paypr:
         )
         self.output_size = SCREEN_SIZES[output_size]
         self.output_image_name = (
-            f"{os.path.splitext(input_image)[0]}_{date.today()}.png"
+            f"{os.path.splitext(input_image)[0]}_{output_size}_{date.today()}.png"
         )
         self.output_image = Image.new("RGBA", self.output_size)
 
